@@ -59,6 +59,8 @@ npm start
 
 ---
 CMPT372 Web Development Ⅱ - Group Project (Developers: Risa.K, Nathan.L, Jason.N, Rachel.S)
+<br>
+Repository does not contain original version control history as files were copied over from GitLab. 
 
 
 
