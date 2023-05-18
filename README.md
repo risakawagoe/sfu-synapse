@@ -27,6 +27,11 @@ Oftentimes, SFU students have a hard time getting to know classmates and buildin
     - Administrator can browse the list of courses (data fetched from [SFU Course Outline REST API](https://www.sfu.ca/outlines/help/api.html))
     - Administrator can add/remove courses to/from this app
 
+## Preview
+![chat](./chat.png)
+![dashboard](./dashboard.png)
+![profile](./profile.png)
+![discover](./discover.png)
 
 ## Technology
 Stacks: SERN (MySQL + Express.js + React.js + Node.js)
