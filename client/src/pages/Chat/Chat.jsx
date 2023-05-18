@@ -284,7 +284,7 @@ export default function Chat() {
                 <Avatar src={senderProfilePic} alt="user icon" className="user-icon"/>
                 <div>
                     <Box sx={{ fontWeight: 'bold' }}>
-                        <Typography variant="body1">
+                        <Typography variant="body1" fontSize=".8rem">
                             {senderUsername}
                         </Typography>
                     </Box>
@@ -293,7 +293,7 @@ export default function Chat() {
                     </Typography>
                 </div>
                 <div className="chat-time">
-                    <Typography variant="body1">
+                    <Typography variant="body1" fontSize=".8rem">
                         {formatTimestampForDisplay(messageContent.timestamp)}
                     </Typography>
                 </div>
@@ -311,7 +311,7 @@ export default function Chat() {
                 <Avatar src={senderProfilePic} alt="user icon" className="user-icon"/>
                 <div>
                     <Box sx={{ fontWeight: 'bold' }}>
-                        <Typography variant="body1">
+                        <Typography variant="body1"  fontSize=".8rem">
                             {senderUsername}
                         </Typography>
                     </Box>
@@ -320,7 +320,7 @@ export default function Chat() {
                     </Typography>
                 </div>
                 <div className="chat-time">
-                    <Typography variant="body1">
+                    <Typography variant="body1" fontSize=".8rem">
                         {formatTimestampForDisplay(messageContent.timestamp)}
                     </Typography>
                 </div>

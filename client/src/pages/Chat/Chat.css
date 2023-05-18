@@ -5,6 +5,8 @@
 
 .chat-time {
     margin-left: auto;
+    color: #939393;
+    font-size: .8rem;
 }
 
 .chat-content-container {

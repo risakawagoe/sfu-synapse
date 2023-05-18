@@ -41,8 +41,7 @@ Stacks: SERN (MySQL + Express.js + React.js + Node.js)
 ## Installation
 Build docker image for MySQL.
 ```sh
-docker-compose build
-docker-compose up -d
+docker-compose up -d --build
 ```
 Install the dependencies and devDependencies and start the server.
 ```sh
