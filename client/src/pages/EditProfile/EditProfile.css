@@ -1,0 +1,121 @@
+div.edit-profile {
+    padding: 16px;
+}
+
+
+/* Grid layout */
+div.edit-profile .editor-window {
+    max-width: 520px;
+    column-gap: 18px;
+    /* background-color: #d3d3d3; */
+    padding: 16px;
+    display: grid;
+    grid-template-rows: min-content min-content 1fr;
+    grid-template-columns: 100px 1fr;
+
+    margin-top: 64px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.edit-profile .editor-window .left-column {
+    text-align: right;
+}
+
+
+/* grid: first row  */
+div.edit-profile .editor-window .profile-image {
+    margin-bottom: 24px;
+    /* background-color: green; */
+}
+div.edit-profile .editor-window .profile-image img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+div.edit-profile .editor-window .profile-username {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 24px;
+    /* background-color: rgba(255, 0, 0, 0.356); */
+}
+div.edit-profile .editor-window .profile-username p {
+    margin-bottom: 0;
+    line-height: 1;
+    font-weight: bold;
+}
+div.edit-profile .editor-window .profile-username a {
+    font-size: .7em;
+    font-weight: bold;
+    color: #0095F6;
+    text-decoration: none;
+}
+div.edit-profile .editor-window .profile-username a:hover {
+    cursor: pointer;
+}
+
+/* grid: second row */
+div.edit-profile .editor-window .profile-input-label {
+    /* background-color: blue; */
+    margin-bottom: 8px;
+}
+div.edit-profile .editor-window .profile-input {
+    margin-bottom: 8px;
+    /* background-color: blue; */
+}
+
+/* grid: third row */
+div.edit-profile .editor-window .profile-textarea-label {
+    /* background-color: gray; */
+}
+div.edit-profile .editor-window .profile-textarea {
+    /* background-color: yellow; */
+}
+
+
+/* input, textarea */
+div.edit-profile .editor-window input,
+div.edit-profile .editor-window textarea {
+    width: 100%;
+    border-radius: 4px;
+    border: 1px rgb(187, 187, 187) solid;
+    padding: 4px 6px;
+}
+div.edit-profile .editor-window input:focus,
+div.edit-profile .editor-window textarea:focus {
+    outline: none;
+}
+div.edit-profile .editor-window small {
+    display: block;
+}
+
+
+/* word counter */
+div.edit-profile span.valid-length {
+    color: #5FA624;
+}
+div.edit-profile span.invalid-length {
+    color: #cc0000;
+}
+
+/* button */
+div.edit-profile button {
+    border: none;
+    border-radius: 4px;
+    padding: 4px 16px;
+    margin-top: 16px;
+    background-color: #5E9697;
+    color: #fff;
+}
+div.edit-profile button:disabled {
+    cursor: default;
+}
+div.edit-profile button:hover {
+    background-color: #11515D;
+    transition: .3s;
+}
+div.edit-profile button:disabled:hover {
+    background-color: #5E9697;
+}
+

@@ -1,0 +1,54 @@
+.profile-card {
+    background-color: #C3D8D1 !important;
+    max-width: 345px;
+    padding: 8px;
+    flex-grow: 1;
+}
+.profile-card.selected {
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+
+.prodile-card-name {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.profile-card-hashtags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-card-hashtags > span {
+    margin-right: 5px;
+}
+
+.profile-card-content {
+    padding-top: 0px !important;
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+}
+
+.profile-card-bio {
+    margin-bottom: 10px !important;
+}
+
+.profile-card-subtitle {
+    margin-bottom: 2px !important;
+}
+
+.classes-and-clubs-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.classes-and-clubs-content > span {
+    background-color: #5E9697;
+    color: white;
+    margin: 0 5px 5px 0;
+    padding: 3px 5px;
+    border-radius: 3px;
+}

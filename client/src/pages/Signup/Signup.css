@@ -1,0 +1,45 @@
+button#signupBtn {
+    display: block;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    margin-top: 16px;
+    background-color: #5E9697;
+    text-align: center;
+}
+button#signupBtn:hover {
+    background-color: #11515D;
+    transition: .3s;
+}
+button#signupBtn:disabled:hover {
+    cursor: default;
+    background-color: #5E9697;
+}
+button#sendCodeBtn:disabled:hover {
+    cursor: default;
+    background-color: #5E9697;
+}
+.pass-error-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    font-size: .8em;
+    padding: 12px;
+    width: 100%;
+    height: 160px;
+    display: block;
+}
+.pass-error-text {
+    padding-bottom: 10px;
+}
+.confirm-pass-error-box {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    font-size: .8em;
+    padding: 12px;
+    width: 100%;
+    height: 40px;
+    display: block;
+}

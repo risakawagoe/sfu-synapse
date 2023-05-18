@@ -1,0 +1,26 @@
+div.delete-account {
+    padding: 16px;
+}
+
+div.delete-account div.warning {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    border: 1px solid #ebccd1;
+}
+
+div.delete-account div.warning-heading {
+    padding: 10px 15px;
+    color: #a94442;
+    background-color: #f2dede;
+}
+div.delete-account div.warning-message {
+    padding: 15px;
+}
+
+div.delete-account div.grid {
+    margin-top: 8px;
+    display: grid;
+    gap: 8px;
+    grid-template-columns: 1fr max-content;
+}

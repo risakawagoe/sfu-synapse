@@ -1,0 +1,125 @@
+.course-list-viewer * {
+    box-sizing: border-box;
+}
+
+.course-list-viewer h3 {
+    margin-top: 16px;
+    text-align: center;
+}
+  
+.course-list-viewer ul {
+    max-height: 50vh;
+    overflow-y: auto;
+    margin: 0;
+    margin-top: 12px;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    -webkit-overflow-scrolling: touch;
+}
+  
+.course-list-viewer li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #11515D;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-list-viewer li:hover {
+    cursor: pointer;
+    background-color: #C3D8D1;
+    transition: .3s;
+}
+
+/* add button */
+.course-list-viewer li button.add-btn {
+    display: inline-block;
+    outline: 0;
+    border: 1px solid #11515D;
+    cursor: pointer;
+    height: 32px;
+    padding: 0px 16px;
+    border-radius: 50px;
+    background-color: #2222220d;
+    color: #222;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.course-list-viewer li button.add-all-btn, 
+.course-list-viewer li button.remove-btn,
+.course-list-viewer li button.modify-btn { 
+    min-width: 152px;
+}
+
+.course-list-viewer li button.add-btn:hover {
+    background-color: #11515D;
+    color: #fff;
+    transition: .3s;
+}
+
+/* back button */
+.course-list-viewer button#backBtn {
+    background-color: rgba(51, 51, 51, 0.05);
+    border-radius: 8px;
+    border-width: 0;
+    color: #333333;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    margin-right: 16px;
+    padding: 8px 12px;
+    text-align: center;
+    transition: all 200ms;
+    vertical-align: baseline;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.course-list-viewer button#backBtn:disabled {
+    cursor: default;
+    color: #777777;
+}
+
+.course-list-viewer button#backBtn:hover {
+    background-color: #11515D;
+    color: #fff;
+    transition: .3s;
+}
+.course-list-viewer button#backBtn:disabled:hover {
+    background-color: rgba(51, 51, 51, 0.05);
+    color: #777777;
+}
+
+/* loading icon */
+.loader-wrapper {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.loader {
+    text-align: center;
+    border: 6px solid #e0dddd;
+    border-top: 6px solid #11515D;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

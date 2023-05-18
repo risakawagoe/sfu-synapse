@@ -1,0 +1,17 @@
+.profile-cards-layout {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+    padding: 2.3rem 2.5rem;
+}
+
+.profile-cards-container > a {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+.profile-cards-container > a {
+    text-decoration: none;
+}

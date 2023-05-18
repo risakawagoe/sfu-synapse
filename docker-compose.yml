@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  mysqldb:
+    container_name: mysql-container
+    # build: ./database
+    image: mysqldb:1.0.0
+    ports:
+      - '3306:3306'
+    expose:
+      - 3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root@synapse
+      MYSQL_DATABASE: synapse_app
+      SERVICE_NAME: mysqldb
+    restart: always
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - "./database/init.sql:/docker-entrypoint-initdb.d/init.sql"

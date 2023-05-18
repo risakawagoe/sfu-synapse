@@ -1,0 +1,193 @@
+div.community-browser {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+div.community-browser div.window-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 16px;
+    width: 450px;
+    padding: 28px 32px;
+}
+
+div.community-browser div.window-body h2 {
+    color: #11515D;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+div.community-browser div.window-body #closeBtn {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+div.community-browser div.window-body #closeBtn svg {
+    fill: rgba(49, 49, 49, 0.6);
+}
+div.community-browser div.window-body #closeBtn svg:hover {
+    cursor: pointer;
+    fill: rgba(17, 81, 93, 1);
+    transition: .3s;
+}
+
+div.community-browser div.window-body div.controller {
+    margin-top: 16px;
+    text-align: right;
+}
+div.community-browser div.window-body div.controller button {
+    border-color: #11515D;
+    color: #11515D;
+    margin-left: 8px;
+}
+div.community-browser div.window-body div.controller button:hover {
+    background-color: #11515D;
+    color: #fff;
+}
+
+div.community-browser div.window-body ul.community-list {
+    padding-left: 0;
+    max-height: 340px;
+    overflow-y: scroll;
+}
+div.community-browser div.window-body ul.community-list::-webkit-scrollbar {
+    display: none;
+}
+
+div.community-browser div.window-body ul.community-list li {
+    list-style-type: none;
+    padding-top: 4px;
+    padding-left: 8px;
+    padding-bottom: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+div.community-browser div.window-body ul.community-list li:hover {
+    background-color: #C3D8D1;
+}
+div.community-browser div.window-body ul.community-list li img {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+    border-radius: 50%;
+    border:rgba(0, 0, 0, .6) 1px solid;
+}
+div.community-browser div.window-body ul.community-list li button {
+    margin-left: 8px;
+}
+div.community-browser div.window-body ul.community-list li button#joinBtn:hover {
+    font-weight: bold;
+    color: #11515D;
+}
+
+div.community-browser div.window-body ul.community-list li button.community-name {
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+
+
+div.community-browser div.window-body label {
+    margin-bottom: 8px;
+}
+
+
+/* toggle switch */
+
+div.community-browser div.window-body div.visibility-config {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+/* The switch - the box around the slider */
+div.community-browser div.window-body .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin-left: 8px;
+  }
+  
+/* Hide default HTML checkbox */
+div.community-browser div.window-body .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+  
+/* The slider */
+div.community-browser div.window-body .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+div.community-browser div.window-body .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+  
+div.community-browser div.window-body input:checked + .slider {
+    background-color: #11515D;
+}
+  
+div.community-browser div.window-body input:focus + .slider {
+    box-shadow: 0 0 1px #11515D;
+}
+  
+div.community-browser div.window-body input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+  
+/* Rounded sliders */
+div.community-browser div.window-body .slider.round {
+    border-radius: 34px;
+}
+  
+div.community-browser div.window-body .slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+
+
+/* select photo view */
+div.community-browser div.window-body div.preview-area {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+div.community-browser div.window-body div.preview-area img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(223, 223, 223);
+}

@@ -1,0 +1,67 @@
+
+div.course-selector {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+div.course-selector div.controllers {
+    margin-bottom: 32px;
+}
+div.course-selector div.controllers h5 {
+    color: #11515D;
+}
+
+div.course-selector div.course-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+div.course-selector section.list {
+    padding: 8px 12px;
+    border-radius: 6px;
+    background-color: #C3D8D1;
+}
+
+div.course-selector div.course-list > section ul {
+    height: calc(100% - 40px);
+    padding-left: 0;
+    overflow-y: scroll;
+    -ms-overflow-style: none;  /* hide scrollbar IE and Edge */
+    scrollbar-width: none;  /* hide scrollbar Firefox */
+}
+div.course-selector div.course-list > section ul::-webkit-scrollbar {
+    display: none;
+}
+
+
+div.course-selector div.course-list > section ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6px;
+}
+
+div.course-selector div.course-list > section ul li button {
+    padding: 4px 8px;
+    border-radius: 16px;
+    border: none;
+    background-color: #fff;
+    font-size: .8em;
+    color: #11515D;
+}
+div.course-selector div.course-list > section ul li button:hover {
+    background: #11515D;
+    color: #fff;
+    transition: .3s;
+}
+div.course-selector div.course-list > section.selected-courses {
+    display: flex;
+    flex-direction: column;
+}
+div.course-selector section.removed-courses {
+    margin-top: 12px;
+    flex: 1;
+}
+

@@ -1,0 +1,36 @@
+div.admin-login {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../images/bg.jpg');
+    background-size: cover;
+    padding: 32px;
+}
+div.admin-login form {
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, .7);
+    padding: 32px;
+}
+
+div.admin-login form p.form-header {
+    font-size: 32px;
+    font-weight: 500;
+    color: #11515D;
+    text-align: center;
+}
+
+div.admin-login form label {
+    display: block;
+    font-weight: bold;
+}
+
+div.admin-login form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: gray 1px solid;
+    outline: none;
+}

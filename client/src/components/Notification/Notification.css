@@ -1,0 +1,12 @@
+.notification-container {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.notification-container a {
+    text-decoration: none;
+}

@@ -1,0 +1,90 @@
+div.popup-window-change-photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1301;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+div.popup-window-change-photo div.window-body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 16px;
+    width: 450px;
+    padding: 28px 32px;
+}
+div.popup-window-change-photo div.window-body h2 {
+    color: #11515D;
+    font-size: 24px;
+}
+div.popup-window-change-photo div.window-body #closeBtn {
+    position: absolute;
+    top: 28px;
+    right: 28px;
+}
+div.popup-window-change-photo div.window-body #closeBtn svg {
+    fill: rgba(49, 49, 49, 0.6);
+}
+div.popup-window-change-photo div.window-body #closeBtn svg:hover {
+    cursor: pointer;
+    fill: rgba(17, 81, 93, 1);
+    transition: .3s;
+}
+
+div.popup-window-change-photo button {
+    background-color: transparent;
+    color: black;
+    margin-top: 8px;
+}
+div.popup-window-change-photo .select-photo-view button,
+div.popup-window-change-photo .remove-photo-view button {
+    border: 1px solid #11515D;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    color: #11515D;
+    margin-right: 8px;
+}
+div.popup-window-change-photo .select-photo-view button:hover,
+div.popup-window-change-photo .remove-photo-view button:hover {
+    background-color: #11515D;
+    color: #fff;
+}
+div.popup-window-change-photo button:hover {
+    background-color: transparent;
+}
+
+div.popup-window-change-photo .red button {
+    color: #FF1818;
+}
+div.popup-window-change-photo .red svg {
+    fill: #FF1818;
+}
+
+div.popup-window-change-photo menu,
+div.popup-window-change-photo ul {
+    padding-left: 0;
+    display: inline-block;
+    margin-bottom: 0;
+}
+div.popup-window-change-photo li {
+    list-style-type: none;
+}
+
+
+/* select photo view */
+div.popup-window-change-photo div.preview-area {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+div.popup-window-change-photo div.preview-area img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(223, 223, 223);
+}

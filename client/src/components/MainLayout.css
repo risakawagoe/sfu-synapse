@@ -1,0 +1,20 @@
+.navside-wrapper {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    gap: 20px;
+    height: 100vh;
+    min-width: 300px;
+    top: 0;
+    left: 0;
+    position: fixed;
+    margin: 0px;
+    background-color: #ffffff;
+}
+
+.app-layout {
+    display: grid;
+    grid-template-columns: 200px max-content 1fr;
+    width: 100%;
+    gap: 0px;
+    padding: 0px;
+}

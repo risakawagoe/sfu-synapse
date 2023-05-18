@@ -1,0 +1,46 @@
+div.admin-dashboard {
+    padding: 32px;
+}
+div.admin-dashboard h1 {
+    color: #11515D;
+    margin-bottom: 32px;
+}
+div.admin-dashboard select {
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+
+div.admin-dashboard select:hover {
+    cursor: pointer;
+}
+
+div.admin-dashboard section.workarea {
+    margin-top: 16px;
+    padding: 16px;
+    background-color: rgba(17, 81, 93, .1);
+}
+
+div.admin-dashboard section.workarea h2 {
+    text-align: center;
+    margin-bottom: 16px;
+}
+div.admin-dashboard section.workarea li {
+    list-style-type: none;
+}
+div.admin-dashboard section.workarea input[type='checkbox'] {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    margin-right: 12px;
+}
+
+div.admin-dashboard div.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+div.admin-dashboard div.flex button {
+    margin-left: 8px;
+}

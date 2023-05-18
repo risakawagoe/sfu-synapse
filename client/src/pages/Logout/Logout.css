@@ -1,0 +1,7 @@
+div.logout {
+    padding: 16px;
+}
+div.logout p,
+div.logout button {
+    color: #dc3545;
+}
