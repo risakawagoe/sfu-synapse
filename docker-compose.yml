@@ -2,7 +2,7 @@ version: '3.9'
 services:
   mysqldb:
     container_name: mysql-container
-    # build: ./database
+    build: ./database
     image: mysqldb:1.0.0
     ports:
       - '3306:3306'
