@@ -9,7 +9,7 @@ Oftentimes, SFU students have a hard time getting to know classmates and buildin
 ![profile](./profile.png)
 ![chat](./chat.png)
 ![discover](./discover.png)
-![verification-email](./verification-email.png)
+![verification-email](./verification-email.jpg)
 
 ## Features
 - **Home page (dashboard)** 
